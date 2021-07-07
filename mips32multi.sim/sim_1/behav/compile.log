@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/alucontrol.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alucontrol
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2458] undeclared symbol MemtoReg, assumed default net type wire [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:20]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/Vivadoprojects/mips32multi/mips32multi.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

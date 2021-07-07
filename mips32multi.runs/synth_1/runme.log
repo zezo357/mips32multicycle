@@ -1,0 +1,554 @@
+
+*** Running vivado
+    with args -log mips.vds -m64 -mode batch -messageDb vivado.pb -notrace -source mips.tcl
+
+
+****** Vivado v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source mips.tcl -notrace
+Command: synth_design -top mips -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 27504 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 304.793 ; gain = 97.500
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mips' [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:1]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+WARNING: [Synth 8-311] ignoring non-constant assignment in initial block [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:27]
+INFO: [Common 17-14] Message 'Synth 8-311' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'control' [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/control.v:1]
+	Parameter FETCH bound to: 4'b0000 
+	Parameter DECODE bound to: 4'b0001 
+	Parameter MEMADRCOMP bound to: 4'b0010 
+	Parameter MEMACCESSL bound to: 4'b0011 
+	Parameter MEMREADEND bound to: 4'b0100 
+	Parameter MEMACCESSS bound to: 4'b0101 
+	Parameter EXECUTION bound to: 4'b0110 
+	Parameter RTYPEEND bound to: 4'b0111 
+	Parameter BEQ bound to: 4'b1000 
+INFO: [Synth 8-155] case statement is not full and has no default [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/control.v:81]
+INFO: [Synth 8-256] done synthesizing module 'control' (1#1) [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/control.v:1]
+INFO: [Synth 8-638] synthesizing module 'alucontrol' [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/alucontrol.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/alucontrol.v:10]
+INFO: [Synth 8-256] done synthesizing module 'alucontrol' (2#1) [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/alucontrol.v:1]
+INFO: [Synth 8-638] synthesizing module 'datapath' [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v:1]
+	Parameter PCSTART bound to: 128 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'instructions.mem' is read successfully [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v:68]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v:145]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (3#1) [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v:1]
+INFO: [Synth 8-256] done synthesizing module 'mips' (4#1) [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/mips.v:1]
+WARNING: [Synth 8-3331] design datapath has unconnected port MemRead
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 378.406 ; gain = 171.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 378.406 ; gain = 171.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 378.406 ; gain = 171.113
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'control'
+INFO: [Synth 8-5544] ROM "IorD" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MemRead" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MemWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MemtoReg" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IRWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PCWriteCond" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUSrcB" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUSrcA" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegWrite" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "RegDst" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ALUOp" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "nextstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "nextstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v:142]
+INFO: [Synth 8-5544] ROM "ALUResult" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   FETCH |                        000000001 |                             0000
+                  DECODE |                        000000010 |                             0001
+              MEMADRCOMP |                        000000100 |                             0010
+              MEMACCESSL |                        000001000 |                             0011
+              MEMREADEND |                        000010000 |                             0100
+              MEMACCESSS |                        000100000 |                             0101
+               EXECUTION |                        001000000 |                             0110
+                RTYPEEND |                        010000000 |                             0111
+                     BEQ |                        100000000 |                             1000
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'control'
+WARNING: [Synth 8-327] inferring latch for variable 'AluCtrl_reg' [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/alucontrol.v:11]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUResult_reg' [F:/Vivadoprojects/mips32multi/mips32multi.srcs/sources_1/new/datapath.v:142]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 378.406 ; gain = 171.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
++---RAMs : 
+	               8K Bit         RAMs := 1     
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 1     
+	   7 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 1     
+	  16 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 4     
+	   8 Input      1 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	  16 Input      9 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 4     
+Module alucontrol 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input      4 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module datapath 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 5     
+	                8 Bit    Registers := 1     
++---RAMs : 
+	               8K Bit         RAMs := 1     
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 1     
+	   7 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 463.719 ; gain = 256.426
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 464.113 ; gain = 256.820
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 464.113 ; gain = 256.820
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+--------------------------+-----------+----------------------+------------------+
+|Module Name | RTL Object               | Inference | Size (Depth x Width) | Primitives       | 
++------------+--------------------------+-----------+----------------------+------------------+
+|mips        | datapath_D/registers_reg | Implied   | 32 x 32              | RAM32M x 12      | 
+|mips        | datapath_D/mem_reg       | Implied   | 256 x 32             | RAM256X1S x 32   | 
++------------+--------------------------+-----------+----------------------+------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (alucontrol_D/AluCtrl_reg[3]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (alucontrol_D/AluCtrl_reg[2]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (alucontrol_D/AluCtrl_reg[1]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (alucontrol_D/AluCtrl_reg[0]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[31]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[30]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[29]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[28]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[27]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[26]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[25]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[24]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[23]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[22]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[21]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[20]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[19]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[18]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[17]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[16]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[15]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[14]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[13]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[12]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[11]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[10]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[9]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[8]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[7]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[6]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[5]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[4]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[3]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[2]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[1]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/A_reg[0]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[31]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[30]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[29]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[28]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[27]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[26]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[25]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[24]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[23]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[22]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[21]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[20]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[19]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[18]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[17]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[16]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[15]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[14]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[13]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[12]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[11]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[10]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[9]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[8]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[7]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[6]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[5]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[4]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[3]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[2]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[1]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/B_reg[0]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[31]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[30]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[29]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[28]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[27]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[26]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[25]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[24]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[23]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[22]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[21]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[20]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[19]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[18]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[17]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[16]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[15]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[14]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[13]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[12]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[11]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[10]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[9]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[8]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[7]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[6]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[5]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[4]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[3]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[2]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[1]) is unused and will be removed from module mips.
+WARNING: [Synth 8-3332] Sequential element (datapath_D/Instruction_reg[0]) is unused and will be removed from module mips.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-115] binding instance 'i_0' in module 'mips' to reference 'control' which has no pins
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     3|
+|2     |LUT4 |     1|
+|3     |LUT6 |     2|
+|4     |FDRE |     9|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------+--------+------+
+|      |Instance    |Module  |Cells |
++------+------------+--------+------+
+|1     |top         |        |    15|
+|2     |  control_D |control |    15|
++------+------------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 65755 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 488.406 ; gain = 261.730
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 488.406 ; gain = 281.113
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+38 Infos, 204 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 552.371 ; gain = 328.773
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 552.371 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 26 19:40:07 2021...

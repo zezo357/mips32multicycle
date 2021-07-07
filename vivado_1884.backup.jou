@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Jan 22 14:41:24 2021
+# Process ID: 1884
+# Current directory: F:/Vivadoprojects/mips32multi
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19392 F:\Vivadoprojects\mips32multi\mips32multi.xpr
+# Log file: F:/Vivadoprojects/mips32multi/vivado.log
+# Journal file: F:/Vivadoprojects/mips32multi\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Vivadoprojects/mips32multi/mips32multi.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+source mips.tcl
+close_sim

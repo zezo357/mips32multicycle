@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Tue Jan 26 19:40:13 2021
+# Process ID: 25508
+# Current directory: F:/Vivadoprojects/mips32multi/mips32multi.runs/impl_1
+# Command line: vivado.exe -log mips.vdi -applog -messageDb vivado.pb -mode batch -source mips.tcl -notrace
+# Log file: F:/Vivadoprojects/mips32multi/mips32multi.runs/impl_1/mips.vdi
+# Journal file: F:/Vivadoprojects/mips32multi/mips32multi.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source mips.tcl -notrace
